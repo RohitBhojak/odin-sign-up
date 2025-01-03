@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="logo">
+        <img src="./images/odin-lined.png" alt="odin logo">
+        <h1>Odin</h1>
+    </div>
+    <div class="container">
+        <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <em>now</em> to get started.</p>
+        <p>You <em>know</em> you want to.</p>
+        
+        <form>
+            <div class="form-container">
+                <h2>Let's do this!</h2>
+                <div class="field">
+                    <label for="first-name">FIRST NAME</label>
+                    <input type="text" id="first-name" placeholder="John" name="first-name" required>
+                </div>
+                <div class="field">
+                    <label for="last-name">LAST NAME</label>
+                    <input type="text" id="last-name" placeholder="Doe" name="last-name" required>
+                </div>
+                <div class="field">
+                    <label for="email">EMAIL</label>
+                    <input type="email" id="email" placeholder="xyz@example.com" name="email" required>
+                </div>
+                <div class="field">
+                    <label for="phone">PHONE NUMBER</label>
+                    <input type="tel" id="phone" minlength="10" maxlength="10" placeholder="1234567890" name="phone" required>
+                </div>
+                <div class="field">
+                    <label for="password">PASSWORD</label>
+                    <input type="password" id="password" placeholder="password" name="password" required>
+                </div>
+                <div class="field">
+                    <label for="confirm-password">CONFIRM PASSWORD</label>
+                    <input type="password" id="confirm-password" placeholder="password" name="confirm-password" required>
+                </div>
+            </div>
+            <button type="submit">Create Account</button>
+            <p>Already have an account? <a href="#">Log in</a></p>
+        </form>
+    </div>
+</body>
+</html>
